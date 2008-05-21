@@ -1,0 +1,3 @@
+ _buf << %Q`<img src="/meshu.gif" />
+<h1>#{escape((@title).to_s)}</h1>
+<p>I say: <strong>#{escape((@say).to_s)}</strong></p>`; 
